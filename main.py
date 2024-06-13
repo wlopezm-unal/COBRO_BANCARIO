@@ -15,4 +15,4 @@ app.include_router(procesamiento_db.router)
 
 @app.get("/")
 async def root():
-    return {"message": "hello wolrd"}
+    return {"message": "Welcome to this bank collection backendn"}
