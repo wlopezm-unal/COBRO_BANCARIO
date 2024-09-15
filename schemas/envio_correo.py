@@ -6,9 +6,9 @@ from email.mime.multipart import MIMEMultipart
 def send_email( estado_prestamo, nombre):
 
     # Configurar los detalles del correo
-    email_address = 'wlopezm.77@gmail.com'
-    password = 'aclb gqze ajkq gugv '
-    recipient = 'angelagomez24@gmail.com'
+    email_address = ''
+    password = ''
+    recipient = ''
     subject = 'Incumplimiento con el pago del prestamo'
     message = f"Buenos días {nombre}, para informarle que el pago de su prestamo esta vencido, por favor realizar el respectivo pronto. Muchas gracias por su atención."
 
